@@ -14,6 +14,8 @@ namespace CommandService.Controllers
         [HttpPost]
         public IActionResult TestBound()
         {
+            Console.WriteLine("---> Inbound POST request");
+
             return Ok("Welcome to platforms Controller!");
         }
     }
